@@ -1,0 +1,109 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    box-sizing: border-box;
+}
+main {
+    width: 70%;
+    height: 70vh;
+    background-color: rgba(122, 224, 136, 0.801);
+    margin: auto;
+}
+
+
+.infoDiv {
+    box-sizing: border-box;
+    width: 50%;  
+    height: 100%;
+    background-color: hsl(244, 38%, 16%);
+    
+    padding: 3em;  
+    padding-bottom: 8.6em;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+b {
+    color: hsl(0, 0%, 100%);
+    display: block
+}
+.imgDiv {
+    width:  ;
+    height: ;
+    border: 40px solid green;
+}
+
+.flexclass {
+    display: flex;
+}
+
+.innerFlex {
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    border: 2px solid coral;
+    padding: 0;
+}
+.innerFlex div{
+    border:1px solid aqua;
+}
+.imgDiv2 {
+    height: auto;
+    height:auto;
+    border: 2px ridge green;
+    margin: auto;
+    display: none;
+}
+.imgDiv2 img{
+    width: 504px;
+    height:auto;
+}
+
+.imgDiv img{
+    width: 25rem;
+    height:10rem;
+}
+
+
+
+/* The below content is the template I've optimised for all my projects */
+.attribution {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    width: 18rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    background-color: rgba(141, 63, 204,50%);
+    position: fixed;
+    bottom: 0px;
+    left:41%;
+    visibility: hidden;
+}
+
+.attribution b:hover {
+    text-shadow: 1px 1px rgb(96, 198, 206);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+.attribution h4{
+    margin-bottom: 0.25rem;
+    margin-top: 0.5em;
+}
+
+.icon-lg {
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border : 7px double blue;
+    padding: 10px;
+    margin-bottom: 0.1rem;
+    background-color: rgb(40, 3, 71);
+}
+
