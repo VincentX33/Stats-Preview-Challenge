@@ -1,37 +1,85 @@
 body {
     background-color: hsl(233, 47%, 7%);
     color:hsl(0, 0%, 100%);
+    font-family: Inter, 'Lexend Deca', Helvetica;
+    font-size: 15px;
+    margin: 0;
 }
 
 .container{
-    height: 21em;
-    width: 30%;
+    height: 21.7em;
+    width: 26.8;
     margin: auto;
 }
 .office {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 26.7em;
+    height: 22em;
     position: relative;
     left:0em;
     top:-0.3em;
-   
 }
 .imgTrial::after{
-    width: 25em;
-    height:20.7em;
-    content: "Women at work laughing";
-    background-color: hsla(277, 64%, 61%,50%);
+    width: 26.7em;
+    height:22em;
+    content: "";
+    background-color: hsla(277, 64%, 61%,70%);
     position: relative;
-    top: -21em;
-    left: 0px;
+    top: -22.3em;
+    left: 0;
     right: 0;
-    bottom: 0px;
+    bottom: 0px;    
     display: grid;
     margin: auto;
     place-items: center;
 }
+strong {
+    color: hsl(277, 64%, 61%);
+}
 
+.info {
+    display: block;
+    color: hsl(0, 0%, 100%);
+    margin-bottom:0em ;
+}
+
+.statFlex {
+    display: flex;
+    width: 80%;
+    justify-content:space-around ;
+    color:  hsla(0, 0%, 100%, 0.6);
+    margin: auto;
+}
+.caption {
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.innerHeading {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.content {
+    background-color: hsl(244, 38%, 16%);
+    width: 45%;
+    text-align: center;
+    border: 1px solid salmon;
+}
+.mainFlex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    height: 22em;
+    flex-direction: row-reverse;
+    align-items: space-between;
+    background-color: hsl(244, 38%, 16%);;
+    margin: auto;
+}
 
 
 /* The below content is the template I've optimised for all my projects */
@@ -43,10 +91,10 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 22px;
     background-color: rgba(141, 63, 204,50%);
-    position: fixed;
-    bottom: 0px;
-    left:41%;
-    visibility: hidden;
+    position: relative;
+    bottom: 0%;
+    left:0;
+    
 }
 
 .attribution b:hover {
