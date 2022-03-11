@@ -8,37 +8,43 @@ body {
 h1 {
     visibility: hidden;
 }
-
+.clearfix::after {
+    content: "";
+    clear:both;
+    display: table;
+}
 .container{
-    height: 24.7em;
-    width: 26.8;
+    height: 61vh;
+    width: 36.6vw;
     margin: auto;
+    order:1;
+    /* border: 2px solid greenyellow; */
 }
 .office {
     /*display: block;*/
-    width: 34.3em;
-    height: 25.9em;
+    width: 38vw;
+    height: 61vh;
     position: relative;
     right: 0em;
-    top:-0.6em;
-    border-bottom-right-radius: 1em;
-    border-top-right-radius: 1em;
+    top:-0em;
+    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 1vw;
 }
 .imgTrial::after{
-    width: 34.3em;
-    height:25.9em;
+    width: 38vw;
+    height:61vh;
     content: "";
     background-color: hsla(277, 64%, 61%,81%);
     position: relative;
-    top: -26.7em;
-    left: 0em;
-    right: 0em;
-    bottom: 0px;    
+    top: -61.6vh;
+    left: 0vw;
+    right: 0vw;
+    bottom: 0vh;    
     display: grid;
     margin: auto;
     place-items: center;
-    border-bottom-right-radius: 1em;
-    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 1vw;
 }
 strong {
     color: hsl(277, 64%, 61%);
@@ -63,39 +69,40 @@ strong {
     color: hsla(0, 0%, 100%, 0.75);
     width: 60%;
     margin: auto;
-    margin-top: -2em;
-    margin-bottom: 2em;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
 }
 
 .innerHeading {
     width: 75%;
     text-align: center;
     margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 2.3em;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    font-size: 6vh;
 }
 
 .content {
     background-color: hsl(244, 38%, 16%);
-    width: 52%;
+    width: 50%;
     text-align: center;
     /*border: 1px solid salmon;*/
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1vw;
+    border-top-left-radius: 1vw;
+    order:2;
+    padding-bottom: 3vh;
 }
 .mainFlex {
     display: flex;
     flex-wrap: wrap;
     width:80%;
-    height: 26em;
     flex-direction:row-reverse;
     align-items: space-between;
     background-color: hsl(244, 38%, 16%);;
     margin: auto;
     border-radius: 1em;
 }
-
+/* Using responsive web design */
 
 /* The below content is the template I've optimised for all my projects */
 .attribution {
