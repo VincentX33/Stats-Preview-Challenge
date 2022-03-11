@@ -60,24 +60,26 @@ strong {
 }
 .caption {
     color: hsla(0, 0%, 100%, 0.75);
-    width: 80%;
+    width: 60%;
     margin: auto;
-    margin-top: 1em;
+    margin-top: -2em;
+    margin-bottom: 2em;
 }
 
 .innerHeading {
-    width: 80%;
+    width: 75%;
     text-align: center;
     margin: auto;
-    margin-top: 4em;
+    margin-top: 2em;
     margin-bottom: 2em;
+    font-size: 2.3em;
 }
 
 .content {
     background-color: hsl(244, 38%, 16%);
-    width: 55%;
+    width: 57%;
     text-align: center;
-    border: 1px solid salmon;
+    /*border: 1px solid salmon;*/
     border-bottom-left-radius: 1em;
     border-top-left-radius: 1em;
 }
